@@ -8,6 +8,6 @@ int main() {
     char str[5];
     printf("%s",str);
     scanf("%s",str);
-    printf("%s\n",str);
+    printf("You entered: %s\n",str);
     return 0;
 }
