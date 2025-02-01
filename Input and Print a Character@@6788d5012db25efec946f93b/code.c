@@ -5,7 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char a=A,b=z;
+    char a=A;
+    char b=z;
     printf("Enter a character:",a);
     scanf("%c",&a);
     printf("You entered: %c\n",a);
