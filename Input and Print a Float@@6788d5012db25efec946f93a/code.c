@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    float pi=3.14;
+    float b=3.14;
     float a=0.0;
-    printf("enter first value:");
+    printf("first value is %f",b);
     scanf("%f",&b);
 
 }
