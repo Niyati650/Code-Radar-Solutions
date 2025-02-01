@@ -9,5 +9,7 @@ int main() {
     float a=0.0;
     printf("first value is %f",b);
     scanf("%f",&b);
-
-}
+    printf("second value is %f",a);
+    scanf("%f",a)
+    return 0;
+    }
