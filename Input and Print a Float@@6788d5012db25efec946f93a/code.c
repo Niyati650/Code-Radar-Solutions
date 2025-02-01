@@ -10,6 +10,6 @@ int main() {
     printf("first value is %f",b);
     scanf("%f",&b);
     printf("second value is %f",a);
-    scanf("%f",&a)
+    scanf("%f",&a);
     return 0;
     }
