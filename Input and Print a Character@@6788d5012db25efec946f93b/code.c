@@ -5,12 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    char a=A;
-    char b=z;
+    char a;
+    char b;
     printf("Enter a character:",a);
     scanf("%c",&a);
     printf("You entered: %c\n",a);
-    printf("Enter a character:");
+    printf("Enter a character:",b);
     scanf("%c",&b);
     printf("You entered: %c\n",b);
 
