@@ -5,11 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    float b=3.14;
-    float a=0.0;
-    printf("first value is %f",b);
-    scanf("%f",&b);
-    printf("second value is %f",a);
+    float a;
     scanf("%f",&a);
+    printf("second value is %f",a);
     return 0;
     }
