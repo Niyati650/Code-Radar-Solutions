@@ -7,9 +7,9 @@ char* welcome() {
 int main() {
     int a;
     int b;
-    int sum =a+b;
     scanf("%d",&a);
     scanf("%d",&b);
+    int sum = a+b;
     printf("Sum: ",sum);
     return 0;
 }
