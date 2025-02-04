@@ -9,6 +9,8 @@ int main() {
     int b;
     scanf("%d",&a);
     scanf("%d",&b);
-    printf("%c",a>b);
+    char c=a>b;
+    char d=b<a;
+    printf("%c",c);
     return 0;
 }
