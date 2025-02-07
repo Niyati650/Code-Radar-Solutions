@@ -10,7 +10,7 @@ int main() {
     if(a%2!=0){
         printf("Odd");
     }
-    else(a%2==0){
+    else{
         printf("Even");
     }
     
