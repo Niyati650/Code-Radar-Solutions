@@ -7,16 +7,16 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if(a==A){
+    if(a=A){
         printf("Excellent");
     }
-    else if(b==B){
+    else if(b=B){
         printf("Good");
     }
-    else if(c==C){
+    else if(c=C){
         printf("Average");
     }
-    else if(d==D){
+    else if(d=D){
         printf("Below Average");
     }
     else{
