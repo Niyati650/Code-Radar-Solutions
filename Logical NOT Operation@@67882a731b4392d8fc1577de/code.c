@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d%d",&a,&b);
-    if(a!=){
+    if(a!=0){
         printf("False");
     }
     else{
