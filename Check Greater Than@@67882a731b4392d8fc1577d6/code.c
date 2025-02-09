@@ -9,8 +9,11 @@ int main() {
     int b;
     scanf("%d",&a);
     scanf("%d",&b);
-    char c=a>b;
-    char d=b<a;
-    printf("%c",c);
+    if(a>b){
+        printtf("True");
+    }
+    else{
+        printf("False");
+    }
     return 0;
 }
