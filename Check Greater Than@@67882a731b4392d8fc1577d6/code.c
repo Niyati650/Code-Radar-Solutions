@@ -5,10 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    int b;
-    scanf("%d",&a);
-    scanf("%d",&b);
+    int a,b;
+    scanf("%d %d",&a,&b);
     if(a>b){
         printtf("True");
     }
