@@ -10,10 +10,10 @@ int main()
                 printf("*");
             }
             else{
-            printf(" ");
-             printf("\n");
+            printf(" \t");
+            
         }
-        
+        printf("\n"); 
     }
 }
     return 0;
