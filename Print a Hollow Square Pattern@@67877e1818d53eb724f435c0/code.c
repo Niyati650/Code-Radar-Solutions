@@ -13,8 +13,9 @@ int main()
             printf(" \t");
             
         }
-        printf("\n"); 
+       
     }
+     printf("\n"); 
 }
     return 0;
 }
