@@ -1,7 +1,6 @@
 int isPrime(int num){
-    int c;
+    int c=0;
     for(int i=1;i<=num;i++){
-        c=0;
         if(num%i==0){
             c++;
         }
