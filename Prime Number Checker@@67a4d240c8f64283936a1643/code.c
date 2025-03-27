@@ -1,10 +1,14 @@
-#include<stdio.h>
-    int isPrime(int num){
-        for(int i=2;i<num;i++){
-            if(num%2==0){
-                return 0;
-            }
+int isPrime(int nium){
+    for(int i=1;i<=num;i++){
+        int c=0;
+        if(num%i==0){
+            c++;
         }
+    }
+    if(c==2){
         return 1;
     }
-   
+    else{
+        return 0;
+    }
+}
