@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int prime(int num){
+    int isPrime(int num){
         for(i=2;i<num;i++){
             if(num%2==0){
                 return 0;
