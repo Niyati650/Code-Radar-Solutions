@@ -1,4 +1,4 @@
-int isPrime(int nium){
+int isPrime(int num){
     for(int i=1;i<=num;i++){
         int c=0;
         if(num%i==0){
