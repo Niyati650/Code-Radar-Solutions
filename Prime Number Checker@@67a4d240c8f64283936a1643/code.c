@@ -1,6 +1,4 @@
 #include<stdio.h>
-int main()
-{
     int isPrime(int num){
         for(int i=2;i<num;i++){
             if(num%2==0){
@@ -19,4 +17,3 @@ int main()
         }
         return 0;
     }
-}
