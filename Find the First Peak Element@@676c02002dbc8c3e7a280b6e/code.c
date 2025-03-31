@@ -14,7 +14,7 @@ int main()
         return 0;
     }
 
-    for(j=1;j<n-1;j++){
+    for(int j=1;j<n-1;j++){
         if (arr[j]>arr[j-1]) && (arr[j]>arr[j+1]){
             printf("%d",arr[j]);
             return0;
